@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    font-family: Arial, 'sans-serif';
+    padding-left: 16px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 20px;
+}
+
+.wd-grey-border-bottom {
+    border-bottom: rgb(47, 51, 54) solid thin;
+}
+
+/*.tweet {*/
+/*    border: rgb(47, 51, 54) solid thin;*/
+/*}*/
+
+.wd-content-row {
+    /*background-color: black;*/
+    color: white;
+    font-weight: bold;
+    clear: both;
+}
+
+.wd-pfp {
+    padding-top: 10px;
+    border-radius: 50px;
+    width: 48px;
+    float: left
+}
