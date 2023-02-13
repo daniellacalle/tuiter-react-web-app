@@ -95,29 +95,21 @@ body {
 .wd-article-header {
     font-weight: bold;
     font-size: 12px;
-    float:left;
-    margin-left: 5px;
-    /*text-align: center;*/
+    margin: 0;
 }
 
 .wd-time-elapsed {
     color: rgb(110, 118, 125);
     font-size: 12px;
-    padding-left: 5px;
     font-weight: normal;
-    float: left;
 }
 
 .wd-news-header {
     padding-top: 5px;
-    /*float: left;*/
 }
 
 .wd-prev-img {
-    /*float: left;*/
-    /*width: 100px;*/
     border-radius: 30px;
-    /*padding-right: 16px;*/
 }
 
 .wd-article-prev {
@@ -127,10 +119,8 @@ body {
 
 .wd-article-prev-img {
     float: right;
-    /*width: 20%;*/
     padding-right: 16px;
     border-radius: 30px;
-
 }
 
 .article {
@@ -141,3 +131,40 @@ body {
 .float-left {
     float: left;
 }
+
+.list-group-item {
+    font-size: 0.7rem;
+    /*border-color: white;*/
+    /*color: white;*/
+}
+
+/*position absolute, giving the search a top and bottom*/
+
+/*.nav {*/
+/*    border-color: white;*/
+/*    color: white;*/
+/*}*/
+
+.nav-item {
+    font-size: 0.8rem;
+}
+
+button {
+    border-radius: 10px;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+}
+
+.fa-gear {
+    position: absolute;
+}
+
+.btn-sm {
+
+}
+
+
+
+

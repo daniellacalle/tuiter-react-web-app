@@ -1,23 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="index.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          rel="stylesheet"/>
     <link href="../styles.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <title>Explore</title>
 </head>
-<body>
+<body class="m-2">
 
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2"> <!-- d-sm-none d-lg-block -->
+            <ul class="nav flex-column nav-tabs list-group">
+                <li class=" list-group-item">
+                    <a href="#">
+                        <i class="fab fa-twitter pe-2"></i>
+                    </a>
+                </li>
+                <li class=" list-group-item">
+                    <a class="text-decoration-none" href="../../index.html">
+                        <i class="fa fa-house-chimney pe-2"></i>
+                        <span class="d-none d-xl-inline-block">Home</span>
+                    </a>
+                </li>
+                <li class=" list-group-item ">
+                    <a class="list-group-item-action active text-decoration-none"
+                       href="../../index.html">
+                        <i class="fa fa-hashtag pe-2"></i>
+                        <span class="d-none d-xl-inline-block">Explore</span>
+                    </a>
+                </li>
+                <li class=" list-group-item">
+                    <a class="text-decoration-none" href="../../index.html">
+                        <i class="fa-solid fa-bell pe-2"></i>
+                        <span class="d-none d-xl-inline-block">Notifications</span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a class="text-decoration-none" href="../../index.html">
+                        <i class="fa-solid fa-envelope pe-2"></i>
+                        <span class="d-none d-xl-inline-block">Messages</span>
+                    </a>
+                </li>
+                <li class=" list-group-item">
+                    <a class="text-decoration-none" href="../../index.html">
+                        <i class="fa-solid fa-bookmark pe-2"></i>
+                        <span class="d-none d-xl-inline-block">Bookmarks</span>
+                    </a>
+                </li>
+                <li class=" list-group-item">
+                    <a class="text-decoration-none" href="../../index.html">
+                        <i class="fa-solid fa-list pe-2"></i>
+                        <span class="d-none d-xl-inline-block">Lists</span>
+                    </a>
+                </li>
+                <li class="nav-item list-group-item">
+                    <a class="text-decoration-none" href="../../index.html">
+                        <i class="fa-solid fa-user pe-2"></i>
+                        <span class="d-none d-xl-inline-block">Profile</span>
+                    </a>
+                </li>
+                <li class="nav-item list-group-item">
+                    <a class="text-decoration-none" href="#">
+                        <i class="fa fa-ellipsis pe-2"></i>
+                        <span class="d-none d-xl-inline-block">More</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="d-grid gap-2 mx-auto">
+                <button type="button" class="btn btn-primary btn-sm rounded-pill mt-1">Tweet
+                </button>
+            </div>
+
+        </div>
+        <!-- main content-->
+        <div class="col-sm-7">
+            <!-- Navbar -->
+            <div class="row">
+                <div class="col-11">
+                    <i class="fa-solid fa-magnifying-glass pt-2 ps-3" style="color: black"></i>
+                    <input class="form-control ps-5 rounded-pill" type="text" placeholder="Search Tuiter"/>
+                </div>
+                <a class="col-1" href="#"><i class="fa-solid fa-gear pt-2"
+                                             style="font-size: 1.5em;"></i></a>
+            </div>
+            <div class="row mt-1">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a class="nav-link active">For You</a></li>
+                    <li class="nav-item"><a class="nav-link">Trending</a></li>
+                    <li class="nav-item"><a class="nav-link">News</a></li>
+                    <li class="nav-item"><a class="nav-link">Sports</a></li>
+                    <li class="nav-item"><a class="nav-link">Entertainment</a></li>
+                </ul>
+            </div>
+            <!-- Articles/Explore Page -->
+            <div class="row">
+                <div class="list-group">
+                    <div class="list-group-item">
+                        <img class="img-fluid" src="./images/sp-starship.webp"/>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <h6 class="wd-topic m-0">Web Development</h6>
+                                <p class="wd-article-header">ReactJS
+                                    <i class="fa fa-circle-check"></i>
+                                    <span class="wd-time-elapsed">- 2h</span>
+                                </p>
+                                <p class="fw-bold">React.js is a component based front end library
+                                that makes it very easy to build Single Page Applications or SPAs</p>
+                            </div>
+                            <div class="col-2">
+                                <img class="img-fluid rounded" src="images/rct.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="wd-article-header m-0">JavaScript
+                                    <i class="fa fa-circle-check"></i>
+                                    <span class="wd-time-elapsed">- 2h</span>
+                                </p>
+                                <p class="fw-bold mb-0">JavaScript is a programming language
+                                that can run on browsers as well as desktops </p>
+                                <p class="wd-time-elapsed mt-0">198k Tuits</p>
+                            </div>
+                            <div class="col-2 mb-0">
+                                <img class="img-fluid rounded" src="images/js-logo.png"/>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <h6 class="wd-topic m-0">Web Development</h6>
+                                <p class="wd-article-header mb-0">jQuery</p>
+                                <p class="wd-time-elapsed">876k Tuits</p>
+                            </div>
+                            <div class="col-2">
+                                <img class="img-fluid rounded" src="images/jquery-logo.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <h6 class="wd-topic m-0">Web Development</h6>
+                                <p class="wd-article-header mb-0">NodeJS
+                                    <i class="fa fa-circle-check"></i>
+                                    <span class="wd-time-elapsed">- 2h</span>
+                                </p>
+                                <p class="wd-time-elapsed">144k Tuits</p>
+                            </div>
+                            <div class="col-2">
+                                <img class="img-fluid rounded" src="images/nodejs-logo.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Who to Follow bar-->
+        <div class="col-sm-3">
+            <div class="row">
+                <div class="list-group wd-follow d-none d-lg-block">
+                    <div class="list-group-item fw-bold">Who to Follow</div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="row">
+                                    <img class="rounded-circle pe-1 img-fluid"
+                                         src="./images/java-logo.png"/>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="row">
+                                    <p class="m-0">Java
+                                        <i class="fa fa-circle-check"></i></p>
+                                    <p class="m-0">@Java</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="row">
+                                    <button class="btn btn-primary btn-sm rounded-pill">Follow
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="row">
+                                    <img class="rounded-circle pe-1 img-fluid"
+                                         src="images/rs-logo.avif"/>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="row">
+                                    <p class="m-0">Relativity Space
+                                        <i class="fa fa-circle-check"></i></p>
+                                    <p class="m-0">@relativityspace</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="row">
+                                    <button class="btn btn-primary btn-sm rounded-pill">Follow
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="row">
+                                    <img class="rounded-circle pe-1 img-fluid"
+                                         src="./images/vg-logo.svg"/>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="row">
+                                    <p class="m-0">Virgin Galactic
+                                        <i class="fa fa-circle-check"></i></p>
+                                    <p class="m-0">@virgingalactic</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="row">
+                                    <button class="btn btn-primary btn-sm rounded-pill">Follow
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="row">
+                                    <img class="rounded-circle pe-1 img-fluid"
+                                         src="./images/nasa-logo.jpg"/>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="row">
+                                    <p class="m-0">NASA
+                                        <i class="fa fa-circle-check"></i></p>
+                                    <p class="m-0">@NASA</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="row">
+                                    <button class="btn btn-primary btn-sm rounded-pill">Follow
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="row">
+                                    <img class="rounded-circle pe-1 img-fluid"
+                                         src="./images/tesla-logo.png"/>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="row">
+                                    <p class="m-0">Tesla
+                                        <i class="fa fa-circle-check"></i></p>
+                                    <p class="m-0">@Tesla</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="row">
+                                    <button class="btn btn-primary btn-sm rounded-pill">Follow
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
+
+
+<!--
 <div class="wd-container">
     <div class="wd-content-row">
-        <!--    class="bg-dark-gray"-->
         <img class="wd-mag-glass wd-rounded-corners-all-around" src="images/mag-glass.png" width="12px" alt="search"/>
         <input class="wd-rounded-corners-all-around wd-white-text wd-bg-dark-gray"
                placeholder="Search Tuiter"/>
         <a href="explore-settings.html"><img src="images/settings.png" width="18px" alt="settings"/></a>
     </div>
     <div class="wd-content-row">
-        <!-- add href here when we get the links -->
         <a class="wd-col-six wd-tab wd-highlighted-tab">For you</a>
         <a class="wd-col-six wd-tab">Trending</a>
         <a class="wd-col-six wd-tab">COVID-19</a>
@@ -46,7 +333,7 @@
                 the mailman. Protective instincts kick in.</h4>
         </div>
         <div class="wd-article-prev-img">
-            <img class="wd-prev-img" width="100px" src="images/lookout.jpg"/> <!--class="wd-prev-img"-->
+            <img class="wd-prev-img" width="100px" src="images/lookout.jpg"/>
         </div>
     </div>
     <div class="wd-content-row wd-grey-border-bottom article">
@@ -59,12 +346,11 @@
                 It's time to scream.</h4>
         </div>
         <div class="wd-article-prev-img">
-            <img class="wd-prev-img" width="100px" height="100px" src="images/patitas.JPG"/> <!--class="wd-prev-img"-->
+            <img class="wd-prev-img" width="100px" height="100px" src="images/patitas.JPG"/>
         </div>
     </div>
     <div class="wd-content-row wd-grey-border-bottom article">
         <div class="wd-article-prev">
-<!--            replace w the text using the style for the article header thing-->
             <p class="wd-topic float-left">Soccer</p>
             <p class="wd-time-elapsed">2 hrs ago</p>
             <br>
@@ -72,7 +358,7 @@
             No more questions about his status in soccer.</h4>
         </div>
         <div class="wd-article-prev-img">
-            <img class="wd-prev-img" width="100px" height="100px" src="images/messi.jpg"/> <!--class="wd-prev-img"-->
+            <img class="wd-prev-img" width="100px" height="100px" src="images/messi.jpg"/>
         </div>
     </div>
     <div class="wd-content-row wd-grey-border-bottom article">
@@ -84,9 +370,8 @@
             Let it live.</h4>
         </div>
         <div class="wd-article-prev-img">
-            <img class="wd-prev-img" width="100px" height="100px" src="images/balloon.jpg"/> <!--class="wd-prev-img"-->
+            <img class="wd-prev-img" width="100px" height="100px" src="images/balloon.jpg"/>
         </div>
     </div>
 </div>
-</body>
-</html>
+-->

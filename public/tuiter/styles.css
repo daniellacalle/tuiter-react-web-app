@@ -1,7 +1,7 @@
 body {
-    background-color: black;
+    /*color: white;*/
+    background-color: white;
     font-family: Arial, 'sans-serif';
-    padding-left: 16px;
 }
 
 .wd-rounded-corners-all-around {
@@ -28,4 +28,8 @@ body {
     border-radius: 50px;
     width: 48px;
     float: left
+}
+
+.wd-list-img {
+    width: 100px;!important;
 }
