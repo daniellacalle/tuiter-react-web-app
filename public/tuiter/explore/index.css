@@ -133,7 +133,7 @@ body {
 }
 
 .list-group-item {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     /*border-color: white;*/
     /*color: white;*/
 }
@@ -161,8 +161,8 @@ button {
     position: absolute;
 }
 
-.btn-sm {
-
+.wd-starship {
+    margin-top: 20rem;
 }
 
 
