@@ -19,9 +19,7 @@ const PostSummaryItem = (
                     <div>{post.title}</div>
                 </div>
                 <div className="col-2">
-                    {/*/Users/daniellacalle/22/spring/webdev/tuiter-react-web-app/public/index.html*/}
-                    {/*/Users/daniellacalle/22/spring/webdev/tuiter-react-web-app/src/tuiter/post-summary-list/images/tesla.jpg*/}
-                    <img alt="twitter profile icon" width={70} className="float-end rounded-3" src={`./explore/images/${post.image}`}/>
+                    <img alt="twitter profile icon" width={70} className="float-end rounded-3" src={`./tuiter-old/explore/images/${post.image}`}/>
                 </div>
             </div>
         </li>
