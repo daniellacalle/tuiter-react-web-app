@@ -29,7 +29,7 @@ const ExploreComponent = () => {
             </ul>
             <div className="position-relative mb-2">
                 {/*src="../../../public/tuiter/explore/images/sp-starship.webp"*/}
-                <img alt="spacex starship" src="./explore/images/sp-starship.webp" className="w-100"/>
+                <img alt="spacex starship launch" src="./explore/images/sp-starship.webp" className="w-100"/>
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
             </div>
