@@ -1,0 +1,45 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "spacex.jpg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 123,
+    "topic": "Space",
+    "userName": "NASA",
+    "time": "1d",
+    "title": "NASA's Curiosity rover is still going strong in revealed pictures",
+    "image": "nasa-logo.jpg",
+    "liked": false,
+    "replies": 965,
+    "retuits": 7308,
+    "likes": 9924,
+    "handle": "@NASA",
+    "tuit": "If I could relive that day, I would say, “We almost never get the design right on the first pass. We design a piece of the hardware, build it, test it, find out what’s not working the way it needs to, have it fixed, then test it again before integrating it into the spacecraft."
+  },
+  {
+    "_id": 789,
+    "topic": "Energy",
+    "userName": "Nuvera",
+    "time": "5h",
+    "title": "Nuvera has finally eliminated the need for fossil fuels",
+    "image": "balloon.jpg",
+    "liked": true,
+    "replies": 13,
+    "retuits": 300,
+    "likes": 2090,
+    "handle": "@Nuvera",
+    "tuit": "Every dollar spent on nuclear is one less dollar spent on clean renewable energy and one more dollar spent on making the world a comparatively dirtier and a more dangerous place, because nuclear power and nuclear weapons go hand in hand."
+  }
+]
+
