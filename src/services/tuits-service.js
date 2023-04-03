@@ -8,6 +8,8 @@ export const createTuit = async (tuit) => {
 }
 
 export const findTuits = async () => {
+    console.log("API BASE IS")
+    console.log(API_BASE)
     const response = await axios.get(TUITS_API);
     const tuits = response.data;
     return tuits;
