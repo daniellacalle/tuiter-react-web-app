@@ -1,6 +1,7 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+// import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 import TuitStats from "./tuit-stats";
 const TuitItem = (
     {
@@ -16,7 +17,7 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return(
@@ -25,7 +26,7 @@ const TuitItem = (
                 <div className="col-1"><img width="40" alt="twitter profile icon" className="rounded-circle" src={`../tuiter-old/explore/images/${tuit.image}`}/></div>
                 <div className="col-11">
 
-                    <div>{tuit.userName} . {tuit.time}
+                    <div>{tuit.username} . {tuit.time}
                         <i className=" ps-1 bi bi-patch-check-fill"></i>
                         <i className="bi bi-x-lg float-end"
                            onClick={() => deleteTuitHandler(tuit._id)}></i></div>
