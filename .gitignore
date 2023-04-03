@@ -2,6 +2,9 @@
 
 .idea
 
+.env
+.bash_profile
+
 # dependencies
 /node_modules
 /.pnp
