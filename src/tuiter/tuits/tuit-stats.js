@@ -33,7 +33,7 @@ const TuitStats = (
                                                                    likes: tuit.likes + 1
                                                                }))} className="bi bi-heart-fill me-2 text-danger"></i>
                 </div>
-                
+
                 {/*<i className={*/}
                 {/*    (tuit.liked) ?  "bi bi-heart-fill" : "bi bi-heart"*/}
                 {/*}> {tuit.likes}</i>*/}
