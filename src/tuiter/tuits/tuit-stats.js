@@ -33,20 +33,20 @@ const TuitStats = (
                                                                    likes: tuit.likes + 1
                                                                }))} className="bi bi-heart-fill me-2 text-danger"></i>
                 </div>
-                <i className={
-                    (tuit.liked) ?  "bi bi-heart-fill" : "bi bi-heart"
-                }> {tuit.likes}</i>
+                {/*<i className={*/}
+                {/*    (tuit.liked) ?  "bi bi-heart-fill" : "bi bi-heart"*/}
+                {/*}> {tuit.likes}</i>*/}
             </div>
-            <div className={"col-2"}>
+            <div className={"col-3"}>
                 <div>
                     Dislikes: {tuit.dislikes}
                     <i onClick={() => dispatch(updateTuitThunk({
                                                                    ...tuit,
                                                                    dislikes: tuit.dislikes + 1
-                                                               }))} className="bi bi-heart me-2 text-danger"></i>
+                                                               }))} className="bi bi-hand-thumbs-down-fill"></i>
                 </div>
-                <i className="bi bi-hand-thumbs-down-fill"
-                > {tuit.dislikes}</i>
+                {/*<i className="bi bi-hand-thumbs-down-fill"*/}
+                {/*> {tuit.dislikes}</i>*/}
             </div>
             <div className={"col-2"}>
                 <i className={"bi bi-share"}></i>
